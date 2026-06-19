@@ -1,11 +1,16 @@
 {
   "schemaVersion": 1,
   "id": "cortex",
-  "version": "1.0.0",
+  "version": "v260619-1",
   "name": "Cortex Data Collector",
   "description": "Collects player behavior data for AI training",
-  "authors": ["YourName"],
+  "authors": ["qwq672"],
   "license": "MIT",
+  "contact": {
+    "homepage": "https://lava.awa.lat",
+    "sources": "https://github.com/qwq672/Cortex",
+    "email": "i@awa.lat"
+  },
   "environment": "*",
   "entrypoints": {
     "main": [

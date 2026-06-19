@@ -1,0 +1,257 @@
+{
+  "startedEpoch": 1780753458020,
+  "endedEpoch": 1780753483035,
+  "durationMs": 25015,
+  "heap": {
+    "allocationRateBytesPerSecond": 1.800815304347826E7,
+    "gcCount": 4,
+    "gcOverHeadPercent": 0.18333,
+    "gcTotalDurationMs": 4586
+  },
+  "cpuPercent": {
+    "jvm": {
+      "min": 0.00721239298582077,
+      "average": 0.02666703528828091,
+      "max": 0.13561923801898956
+    },
+    "userJvm": {
+      "min": 0.5198737382888794,
+      "average": 0.7459552751647102,
+      "max": 0.8794374465942383
+    },
+    "system": {
+      "min": 0.9890294075012207,
+      "average": 0.9992883933915032,
+      "max": 1.0
+    }
+  },
+  "network": {
+    "sent": {
+      "totalBytes": 0,
+      "count": 0,
+      "bytesPerSecond": 0.0,
+      "countPerSecond": 0.0,
+      "topContributors": []
+    },
+    "received": {
+      "totalBytes": 0,
+      "count": 0,
+      "bytesPerSecond": 0.0,
+      "countPerSecond": 0.0,
+      "topContributors": []
+    }
+  },
+  "fileIO": {
+    "write": {
+      "totalBytes": 1775,
+      "count": 11,
+      "bytesPerSecond": 71.0,
+      "countPerSecond": 0.44,
+      "topContributors": [
+        {
+          "path": "logs\\debug.log",
+          "totalBytes": 888
+        },
+        {
+          "path": "logs\\latest.log",
+          "totalBytes": 397
+        }
+      ]
+    },
+    "read": {
+      "totalBytes": 257325,
+      "count": 99,
+      "bytesPerSecond": 10293.0,
+      "countPerSecond": 3.96,
+      "topContributors": [
+        {
+          "path": "C:\\Users\\672\\.gradle\\caches\\fabric-loom\\assets\\objects\\98\\98a918eb2694defd19726436d4b9dca9e7dd6a65",
+          "totalBytes": 194459
+        },
+        {
+          "path": "C:\\Users\\672\\Cortex\\.gradle\\loom-cache\\minecraftMaven\\net\\minecraft\\minecraft-merged-d95c7b3016\\1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.10-v2\\minecraft-merged-d95c7b3016-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.10-v2.jar",
+          "totalBytes": 25718
+        },
+        {
+          "path": "C:\\Users\\672\\.gradle\\caches\\fabric-loom\\assets\\objects\\22\\22a383d9c22342305a4f16fec0bb479a885f8da2",
+          "totalBytes": 7086
+        },
+        {
+          "path": "C:\\Users\\672\\.gradle\\caches\\fabric-loom\\assets\\objects\\e6\\e62d75641464ead6ff27101010b54573eb1c1d4c",
+          "totalBytes": 6993
+        },
+        {
+          "path": "C:\\Users\\672\\.gradle\\caches\\fabric-loom\\assets\\objects\\e2\\e26fa3036cdab4c2264ceb19e1cd197a2a510227",
+          "totalBytes": 6501
+        },
+        {
+          "path": "C:\\Users\\672\\.gradle\\caches\\fabric-loom\\assets\\objects\\c4\\c4456c473ff44786c6f9d7e6c91f652ca0a7f7d4",
+          "totalBytes": 5811
+        },
+        {
+          "path": "C:\\Users\\672\\Cortex\\.gradle\\loom-cache\\remapped_mods\\net_fabricmc_yarn_1_20_1_1_20_1_build_10_v2\\net\\fabricmc\\fabric-api\\fabric-message-api-v1\\5.1.10+1802ada577\\fabric-message-api-v1-5.1.10+1802ada577.jar",
+          "totalBytes": 5643
+        },
+        {
+          "path": "C:\\Users\\672\\.gradle\\caches\\fabric-loom\\assets\\objects\\bd\\bd1750c016f6bab40934eff0b0fb64c41c86e44b",
+          "totalBytes": 5114
+        }
+      ]
+    }
+  },
+  "serverTick": {
+    "minMs": 43.532956,
+    "averageMs": 102.13456355555556,
+    "maxMs": 139.429024,
+    "p99": 139.27340464,
+    "p90": 137.1263504,
+    "p75": 120.314152,
+    "p50": 101.242084
+  },
+  "threadAllocation": [
+    {
+      "thread": "Attach Listener",
+      "bytesPerSecond": 0.0
+    },
+    {
+      "thread": "C1 CompilerThread0",
+      "bytesPerSecond": 6.666666666666667
+    },
+    {
+      "thread": "C2 CompilerThread0",
+      "bytesPerSecond": 0.0
+    },
+    {
+      "thread": "C2 CompilerThread1",
+      "bytesPerSecond": 0.0
+    },
+    {
+      "thread": "C2 CompilerThread2",
+      "bytesPerSecond": 0.0
+    },
+    {
+      "thread": "Common-Cleaner",
+      "bytesPerSecond": 0.0
+    },
+    {
+      "thread": "Finalizer",
+      "bytesPerSecond": 0.0
+    },
+    {
+      "thread": "IO-Worker-11",
+      "bytesPerSecond": 0.0
+    },
+    {
+      "thread": "IO-Worker-12",
+      "bytesPerSecond": 1129.3333333333333
+    },
+    {
+      "thread": "IO-Worker-8",
+      "bytesPerSecond": 0.0
+    },
+    {
+      "thread": "IO-Worker-9",
+      "bytesPerSecond": 0.0
+    },
+    {
+      "thread": "JFR Periodic Tasks",
+      "bytesPerSecond": 151.33333333333334
+    },
+    {
+      "thread": "JFR Recorder Thread",
+      "bytesPerSecond": 0.0
+    },
+    {
+      "thread": "JNA Cleaner",
+      "bytesPerSecond": 0.0
+    },
+    {
+      "thread": "Java2D Disposer",
+      "bytesPerSecond": 0.0
+    },
+    {
+      "thread": "Monitor Deflation Thread",
+      "bytesPerSecond": 0.0
+    },
+    {
+      "thread": "Netty Local Client IO #0",
+      "bytesPerSecond": 11710.0
+    },
+    {
+      "thread": "Netty Server IO #0",
+      "bytesPerSecond": 0.0
+    },
+    {
+      "thread": "Netty Server IO #1",
+      "bytesPerSecond": 23924.666666666668
+    },
+    {
+      "thread": "Notification Thread",
+      "bytesPerSecond": 0.0
+    },
+    {
+      "thread": "Reference Handler",
+      "bytesPerSecond": 0.0
+    },
+    {
+      "thread": "Render thread",
+      "bytesPerSecond": 3431054.0
+    },
+    {
+      "thread": "Server thread",
+      "bytesPerSecond": 7560798.666666667
+    },
+    {
+      "thread": "Service Thread",
+      "bytesPerSecond": 0.0
+    },
+    {
+      "thread": "Signal Dispatcher",
+      "bytesPerSecond": 0.0
+    },
+    {
+      "thread": "Sound engine",
+      "bytesPerSecond": 33089.333333333336
+    },
+    {
+      "thread": "Timer hack thread",
+      "bytesPerSecond": 0.0
+    },
+    {
+      "thread": "Worker-Main-1",
+      "bytesPerSecond": 971375.3333333334
+    },
+    {
+      "thread": "Worker-Main-2",
+      "bytesPerSecond": 853728.0
+    },
+    {
+      "thread": "Worker-Main-3",
+      "bytesPerSecond": 1724963.3333333333
+    },
+    {
+      "thread": "Worker-Main-4",
+      "bytesPerSecond": 2021442.0
+    },
+    {
+      "thread": "Worker-Main-5",
+      "bytesPerSecond": 1179373.3333333333
+    },
+    {
+      "thread": "Worker-Main-6",
+      "bytesPerSecond": 944094.0
+    },
+    {
+      "thread": "Worker-Main-7",
+      "bytesPerSecond": 1939650.0
+    },
+    {
+      "thread": "Yggdrasil Key Fetcher",
+      "bytesPerSecond": 0.0
+    }
+  ],
+  "chunkGen": {
+    "durationNanosTotal": 0.0,
+    "status": []
+  }
+}
